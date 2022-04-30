@@ -134,7 +134,7 @@ h1 {
 }
 
 .nav-open .nav {
-  transform: translate(1);
+  transform: translate(100%);
 }
 
 .nav-open .menu-toggle {
