@@ -6,7 +6,7 @@ toggleMenu.addEventListener('load', () => {
 });
 
 navigationLinks.forEach(link => {
-  link.addEventListener('click', () => {
+  link.addEventListener('load', () => {
     document.body.classList.remove('nav-open');
   });
 });
